@@ -1,0 +1,98 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar,#search-box, .nav-list li, .nav-list a {
+	background-color: white;
+	font-weight: bold;
+	font-size: 110%;
+	color: black;
+}
+
+.top-bar {
+	color: #fff;
+	height: 40px;
+	margin: 0;
+	padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-list li:first-child {
+    margin-right: auto;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list a {
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-us {
+  text-align: center;
+}
+
+.text-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.team {
+    text-align: center;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.address, .contact {
+    flex: 1;
+    margin: 0 10px;
+}
