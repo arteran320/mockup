@@ -21,6 +21,12 @@ body {
   justify-content: space-between;
 }
 
+img {
+    width : 20px;
+    height: 20px; /*to preserve the aspect ratio of the image*/
+    padding: 1px;
+}
+
 .nav-list {
   list-style-type: none;
   padding: 0;
